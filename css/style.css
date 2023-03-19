@@ -133,6 +133,10 @@ img {
    .container{
         max-width: 100%;
    } 
+
+   .steps{
+    background: #eebbc3;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -153,6 +157,7 @@ img {
 
     .steps{
         margin: 0;
+        background: #eebbc3;
     }
 
     .steps .col {
@@ -173,7 +178,12 @@ img {
 
     .lessons .col{
         width: 100%;
+        padding-top: 3rem;
        }
+
+    .lessons .h2{
+        margin-bottom: 0;
+    }
 
 
 }
